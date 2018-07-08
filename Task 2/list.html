@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #data{
+            margin: auto;
+            width: 500px;
+            border: solid black 1px;  
+        }
+        input{
+            margin: 5px;
+            min-width: 75px;
+            min-height: 15px;
+        }
+        ul{
+            list-style-type: none;
+            margin-left: 5px; 
+            margin-right: 5px;
+            padding: 0px;
+        }
+        .item{
+            display: flex;
+            justify-content: space-between;
+        }
+        #btnHolder{            
+            display: flex;
+            justify-content: flex-start;
+        }
+    </style>
+    <script type="text/javascript" src="list.js"></script>
+</head>
+<body>
+    <div id="data">
+        <ul id="holder">
+        </ul>
+        <div id="btnHolder">
+            <input type="text" id="textArea" required placeholder="Enter your text">
+            <input type="button" id="addItem" value="Add item">
+            <input type="button" id="rmvItem" value="Remove item">
+        </div>
+    </div>     
+</body>
+</html>

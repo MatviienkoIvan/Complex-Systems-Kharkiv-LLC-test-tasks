@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        form{
+            width: 800px;
+            max-width: 100%;
+        }
+        table{           
+            text-align: center;
+            border-collapse:collapse; 
+        }
+        td{
+            border: solid black 1px;
+            text-align: center;
+            min-width: 100px;
+        }
+        input{
+            min-width: 75px;
+            min-height: 30px;            
+        }        
+    </style>
+    <script type="text/jscript" src="table.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Data Form</legend>            
+            <p>
+               <input type="button" id="addBtn" value="Add">
+               <input type="button" id="rmvBtn" value="Remove">
+            </p>
+            <table id="dataTable">
+                
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
